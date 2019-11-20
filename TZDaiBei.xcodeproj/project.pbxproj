@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26CB817D2383EE8A00FB3FE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB817C2383EE8A00FB3FE0 /* AppDelegate.m */; };
+		26CB81862383EE8A00FB3FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CB81842383EE8A00FB3FE0 /* Main.storyboard */; };
+		26CB81892383EE8A00FB3FE0 /* TZDaiBei.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26CB81872383EE8A00FB3FE0 /* TZDaiBei.xcdatamodeld */; };
+		26CB818B2383EE8C00FB3FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CB818A2383EE8C00FB3FE0 /* Assets.xcassets */; };
+		26CB818E2383EE8C00FB3FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CB818C2383EE8C00FB3FE0 /* LaunchScreen.storyboard */; };
+		26CB81912383EE8C00FB3FE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB81902383EE8C00FB3FE0 /* main.m */; };
+		26CB819B2383EE8C00FB3FE0 /* TZDaiBeiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB819A2383EE8C00FB3FE0 /* TZDaiBeiTests.m */; };
+		26CB81A62383EE8C00FB3FE0 /* TZDaiBeiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB81A52383EE8C00FB3FE0 /* TZDaiBeiUITests.m */; };
+		26EF684E2384E7C600AA67A3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EF684D2384E7C600AA67A3 /* RootViewController.m */; };
+		920CBF870DC5506AB013B8D0 /* libPods-TZDaiBei.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C680673214F1281CC53CE52 /* libPods-TZDaiBei.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26CB81972383EE8C00FB3FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26CB81702383EE8A00FB3FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26CB81772383EE8A00FB3FE0;
+			remoteInfo = TZDaiBei;
+		};
+		26CB81A22383EE8C00FB3FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26CB81702383EE8A00FB3FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26CB81772383EE8A00FB3FE0;
+			remoteInfo = TZDaiBei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26CB81782383EE8A00FB3FE0 /* TZDaiBei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZDaiBei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CB817B2383EE8A00FB3FE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26CB817C2383EE8A00FB3FE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26CB81852383EE8A00FB3FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26CB81882383EE8A00FB3FE0 /* TZDaiBei.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TZDaiBei.xcdatamodel; sourceTree = "<group>"; };
+		26CB818A2383EE8C00FB3FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26CB818D2383EE8C00FB3FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26CB818F2383EE8C00FB3FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CB81902383EE8C00FB3FE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26CB81962383EE8C00FB3FE0 /* TZDaiBeiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZDaiBeiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CB819A2383EE8C00FB3FE0 /* TZDaiBeiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZDaiBeiTests.m; sourceTree = "<group>"; };
+		26CB819C2383EE8C00FB3FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CB81A12383EE8C00FB3FE0 /* TZDaiBeiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZDaiBeiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CB81A52383EE8C00FB3FE0 /* TZDaiBeiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZDaiBeiUITests.m; sourceTree = "<group>"; };
+		26CB81A72383EE8C00FB3FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CB81C52384E4CB00FB3FE0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		26EF684C2384E7C600AA67A3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		26EF684D2384E7C600AA67A3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3994B51FC3BEA9DBA267EEB5 /* Pods-TZDaiBei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZDaiBei.debug.xcconfig"; path = "Target Support Files/Pods-TZDaiBei/Pods-TZDaiBei.debug.xcconfig"; sourceTree = "<group>"; };
+		9C680673214F1281CC53CE52 /* libPods-TZDaiBei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TZDaiBei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB0F6E8303B71A910EED49D /* Pods-TZDaiBei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZDaiBei.release.xcconfig"; path = "Target Support Files/Pods-TZDaiBei/Pods-TZDaiBei.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26CB81752383EE8A00FB3FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920CBF870DC5506AB013B8D0 /* libPods-TZDaiBei.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB81932383EE8C00FB3FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB819E2383EE8C00FB3FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042A5F40F94A8E08EE18935E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C680673214F1281CC53CE52 /* libPods-TZDaiBei.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D5D364A8222F3D3504466E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3994B51FC3BEA9DBA267EEB5 /* Pods-TZDaiBei.debug.xcconfig */,
+				EAB0F6E8303B71A910EED49D /* Pods-TZDaiBei.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		26B4F1722384ECA9006413AC /* LoginRegister(登录注册页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "LoginRegister(登录注册页)";
+			sourceTree = "<group>";
+		};
+		26B4F1732384ED0D006413AC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				26B4F1742384ED45006413AC /* Category */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		26B4F1742384ED45006413AC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		26B4F1752384EDBA006413AC /* DefinePCH */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DefinePCH;
+			sourceTree = "<group>";
+		};
+		26B4F1762384EE31006413AC /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		26CB816F2383EE8A00FB3FE0 = {
+			isa = PBXGroup;
+			children = (
+				26CB817A2383EE8A00FB3FE0 /* TZDaiBei */,
+				26CB81992383EE8C00FB3FE0 /* TZDaiBeiTests */,
+				26CB81A42383EE8C00FB3FE0 /* TZDaiBeiUITests */,
+				26CB81792383EE8A00FB3FE0 /* Products */,
+				1D5D364A8222F3D3504466E6 /* Pods */,
+				042A5F40F94A8E08EE18935E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26CB81792383EE8A00FB3FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26CB81782383EE8A00FB3FE0 /* TZDaiBei.app */,
+				26CB81962383EE8C00FB3FE0 /* TZDaiBeiTests.xctest */,
+				26CB81A12383EE8C00FB3FE0 /* TZDaiBeiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26CB817A2383EE8A00FB3FE0 /* TZDaiBei */ = {
+			isa = PBXGroup;
+			children = (
+				26CB81C42384E45D00FB3FE0 /* AppDelegate */,
+				26CB81B92383F11F00FB3FE0 /* Base */,
+				26EF684F2384E9BB00AA67A3 /* Modules */,
+				26B4F1732384ED0D006413AC /* Utils */,
+				26CB81B82383F10800FB3FE0 /* Common */,
+				26B4F1762384EE31006413AC /* NetWork */,
+				26B4F1752384EDBA006413AC /* DefinePCH */,
+				26CB81B72383EF6000FB3FE0 /* Supporting Files */,
+			);
+			path = TZDaiBei;
+			sourceTree = "<group>";
+		};
+		26CB81992383EE8C00FB3FE0 /* TZDaiBeiTests */ = {
+			isa = PBXGroup;
+			children = (
+				26CB819A2383EE8C00FB3FE0 /* TZDaiBeiTests.m */,
+				26CB819C2383EE8C00FB3FE0 /* Info.plist */,
+			);
+			path = TZDaiBeiTests;
+			sourceTree = "<group>";
+		};
+		26CB81A42383EE8C00FB3FE0 /* TZDaiBeiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26CB81A52383EE8C00FB3FE0 /* TZDaiBeiUITests.m */,
+				26CB81A72383EE8C00FB3FE0 /* Info.plist */,
+			);
+			path = TZDaiBeiUITests;
+			sourceTree = "<group>";
+		};
+		26CB81B72383EF6000FB3FE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26CB81842383EE8A00FB3FE0 /* Main.storyboard */,
+				26CB818A2383EE8C00FB3FE0 /* Assets.xcassets */,
+				26CB818C2383EE8C00FB3FE0 /* LaunchScreen.storyboard */,
+				26CB818F2383EE8C00FB3FE0 /* Info.plist */,
+				26CB81902383EE8C00FB3FE0 /* main.m */,
+				26CB81872383EE8A00FB3FE0 /* TZDaiBei.xcdatamodeld */,
+				26CB81C52384E4CB00FB3FE0 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26CB81B82383F10800FB3FE0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		26CB81B92383F11F00FB3FE0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				26EF684C2384E7C600AA67A3 /* RootViewController.h */,
+				26EF684D2384E7C600AA67A3 /* RootViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		26CB81C42384E45D00FB3FE0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				26CB817B2383EE8A00FB3FE0 /* AppDelegate.h */,
+				26CB817C2383EE8A00FB3FE0 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		26EF684F2384E9BB00AA67A3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				26B4F1722384ECA9006413AC /* LoginRegister(登录注册页) */,
+				26EF68522384EA2200AA67A3 /* Product(产品页) */,
+				26EF68512384E9FB00AA67A3 /* Mine(我的页) */,
+				26EF68502384E9D300AA67A3 /* Home(首页) */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		26EF68502384E9D300AA67A3 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		26EF68512384E9FB00AA67A3 /* Mine(我的页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Mine(我的页)";
+			sourceTree = "<group>";
+		};
+		26EF68522384EA2200AA67A3 /* Product(产品页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Product(产品页)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26CB81772383EE8A00FB3FE0 /* TZDaiBei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26CB81AA2383EE8C00FB3FE0 /* Build configuration list for PBXNativeTarget "TZDaiBei" */;
+			buildPhases = (
+				5390CCD8476F85EBC7CDCBB6 /* [CP] Check Pods Manifest.lock */,
+				26CB81742383EE8A00FB3FE0 /* Sources */,
+				26CB81752383EE8A00FB3FE0 /* Frameworks */,
+				26CB81762383EE8A00FB3FE0 /* Resources */,
+				FB538B2A6F41FF64C10E73ED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TZDaiBei;
+			productName = TZDaiBei;
+			productReference = 26CB81782383EE8A00FB3FE0 /* TZDaiBei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26CB81952383EE8C00FB3FE0 /* TZDaiBeiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26CB81AD2383EE8C00FB3FE0 /* Build configuration list for PBXNativeTarget "TZDaiBeiTests" */;
+			buildPhases = (
+				26CB81922383EE8C00FB3FE0 /* Sources */,
+				26CB81932383EE8C00FB3FE0 /* Frameworks */,
+				26CB81942383EE8C00FB3FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26CB81982383EE8C00FB3FE0 /* PBXTargetDependency */,
+			);
+			name = TZDaiBeiTests;
+			productName = TZDaiBeiTests;
+			productReference = 26CB81962383EE8C00FB3FE0 /* TZDaiBeiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26CB81A02383EE8C00FB3FE0 /* TZDaiBeiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26CB81B02383EE8C00FB3FE0 /* Build configuration list for PBXNativeTarget "TZDaiBeiUITests" */;
+			buildPhases = (
+				26CB819D2383EE8C00FB3FE0 /* Sources */,
+				26CB819E2383EE8C00FB3FE0 /* Frameworks */,
+				26CB819F2383EE8C00FB3FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26CB81A32383EE8C00FB3FE0 /* PBXTargetDependency */,
+			);
+			name = TZDaiBeiUITests;
+			productName = TZDaiBeiUITests;
+			productReference = 26CB81A12383EE8C00FB3FE0 /* TZDaiBeiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26CB81702383EE8A00FB3FE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "天泽集团";
+				TargetAttributes = {
+					26CB81772383EE8A00FB3FE0 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					26CB81952383EE8C00FB3FE0 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 26CB81772383EE8A00FB3FE0;
+					};
+					26CB81A02383EE8C00FB3FE0 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 26CB81772383EE8A00FB3FE0;
+					};
+				};
+			};
+			buildConfigurationList = 26CB81732383EE8A00FB3FE0 /* Build configuration list for PBXProject "TZDaiBei" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26CB816F2383EE8A00FB3FE0;
+			productRefGroup = 26CB81792383EE8A00FB3FE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26CB81772383EE8A00FB3FE0 /* TZDaiBei */,
+				26CB81952383EE8C00FB3FE0 /* TZDaiBeiTests */,
+				26CB81A02383EE8C00FB3FE0 /* TZDaiBeiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26CB81762383EE8A00FB3FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB818E2383EE8C00FB3FE0 /* LaunchScreen.storyboard in Resources */,
+				26CB818B2383EE8C00FB3FE0 /* Assets.xcassets in Resources */,
+				26CB81862383EE8A00FB3FE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB81942383EE8C00FB3FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB819F2383EE8C00FB3FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5390CCD8476F85EBC7CDCBB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TZDaiBei-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB538B2A6F41FF64C10E73ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TZDaiBei/Pods-TZDaiBei-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TZDaiBei/Pods-TZDaiBei-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TZDaiBei/Pods-TZDaiBei-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26CB81742383EE8A00FB3FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB81912383EE8C00FB3FE0 /* main.m in Sources */,
+				26CB81892383EE8A00FB3FE0 /* TZDaiBei.xcdatamodeld in Sources */,
+				26EF684E2384E7C600AA67A3 /* RootViewController.m in Sources */,
+				26CB817D2383EE8A00FB3FE0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB81922383EE8C00FB3FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB819B2383EE8C00FB3FE0 /* TZDaiBeiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB819D2383EE8C00FB3FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB81A62383EE8C00FB3FE0 /* TZDaiBeiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26CB81982383EE8C00FB3FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26CB81772383EE8A00FB3FE0 /* TZDaiBei */;
+			targetProxy = 26CB81972383EE8C00FB3FE0 /* PBXContainerItemProxy */;
+		};
+		26CB81A32383EE8C00FB3FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26CB81772383EE8A00FB3FE0 /* TZDaiBei */;
+			targetProxy = 26CB81A22383EE8C00FB3FE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26CB81842383EE8A00FB3FE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26CB81852383EE8A00FB3FE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26CB818C2383EE8C00FB3FE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26CB818D2383EE8C00FB3FE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26CB81A82383EE8C00FB3FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26CB81A92383EE8C00FB3FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26CB81AB2383EE8C00FB3FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3994B51FC3BEA9DBA267EEB5 /* Pods-TZDaiBei.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FW4YF8XGYD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TZDaiBei/PrefixHeader.pch";
+				INFOPLIST_FILE = TZDaiBei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tianze.com.TZDaiBei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		26CB81AC2383EE8C00FB3FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB0F6E8303B71A910EED49D /* Pods-TZDaiBei.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FW4YF8XGYD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TZDaiBei/PrefixHeader.pch";
+				INFOPLIST_FILE = TZDaiBei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tianze.com.TZDaiBei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		26CB81AE2383EE8C00FB3FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FW4YF8XGYD;
+				INFOPLIST_FILE = TZDaiBeiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tianze.com.TZDaiBeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZDaiBei.app/TZDaiBei";
+			};
+			name = Debug;
+		};
+		26CB81AF2383EE8C00FB3FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FW4YF8XGYD;
+				INFOPLIST_FILE = TZDaiBeiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tianze.com.TZDaiBeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZDaiBei.app/TZDaiBei";
+			};
+			name = Release;
+		};
+		26CB81B12383EE8C00FB3FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FW4YF8XGYD;
+				INFOPLIST_FILE = TZDaiBeiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tianze.com.TZDaiBeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TZDaiBei;
+			};
+			name = Debug;
+		};
+		26CB81B22383EE8C00FB3FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FW4YF8XGYD;
+				INFOPLIST_FILE = TZDaiBeiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tianze.com.TZDaiBeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TZDaiBei;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26CB81732383EE8A00FB3FE0 /* Build configuration list for PBXProject "TZDaiBei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CB81A82383EE8C00FB3FE0 /* Debug */,
+				26CB81A92383EE8C00FB3FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26CB81AA2383EE8C00FB3FE0 /* Build configuration list for PBXNativeTarget "TZDaiBei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CB81AB2383EE8C00FB3FE0 /* Debug */,
+				26CB81AC2383EE8C00FB3FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26CB81AD2383EE8C00FB3FE0 /* Build configuration list for PBXNativeTarget "TZDaiBeiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CB81AE2383EE8C00FB3FE0 /* Debug */,
+				26CB81AF2383EE8C00FB3FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26CB81B02383EE8C00FB3FE0 /* Build configuration list for PBXNativeTarget "TZDaiBeiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CB81B12383EE8C00FB3FE0 /* Debug */,
+				26CB81B22383EE8C00FB3FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26CB81872383EE8A00FB3FE0 /* TZDaiBei.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26CB81882383EE8A00FB3FE0 /* TZDaiBei.xcdatamodel */,
+			);
+			currentVersion = 26CB81882383EE8A00FB3FE0 /* TZDaiBei.xcdatamodel */;
+			path = TZDaiBei.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26CB81702383EE8A00FB3FE0 /* Project object */;
+}

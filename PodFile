@@ -1,0 +1,53 @@
+platform :ios, '9.0'
+
+target 'TZDaiBei' do
+
+# system -----------------
+pod 'AFNetworking', '~> 3.1.0’
+pod 'IQKeyboardManager', '~> 3.0.8’
+pod 'SDWebImage', '~> 3.8.2'
+pod 'RegexKitLite', '~> 4.0' # 正则表达式
+pod 'MJRefresh'
+pod 'GTMBase64'
+pod 'FDFullscreenPopGesture'
+pod 'SAMKeychain' #钥匙串
+pod 'LKDBHelper', '~> 2.3.4’
+pod 'YYWebImage'
+pod 'YYModel'
+pod 'ReactiveObjC'
+pod 'YYText'
+
+# Tool -----------------
+pod 'LLDebugTool' , '1.3.6' #,:configurations => ['Debug']
+
+# UI -----------------
+pod 'CYLTabBarController'
+pod 'SDCycleScrollView‘
+pod 'MBProgressHUD', '~> 1.0.0’
+pod 'JSBadgeView', '~> 1.4.1'
+pod 'DZNEmptyDataSet'
+
+
+#pod 'JTObjectMapping', '~> 1.1.2'
+#pod 'YYCache', '~> 1.0.4'
+#pod 'Masonry'
+#pod 'ReactiveCocoa', :git => 'https://github.com/zhao0/ReactiveCocoa.git', :tag => '2.5.2'
+#pod 'OpenUDID'
+#pod 'WMPageController', '~> 2.4.0'
+#pod 'UMCCommon'
+#pod 'UMCAnalytics'
+#pod 'UMCSecurityPlugins'
+#pod 'UMCPush'
+#pod 'Bugly'
+#pod 'UMCShare/Social/WeChat'
+#pod 'UMCShare/Social/ReducedSina'
+#pod 'UMCShare/Social/ReducedQQ'
+#pod 'UMCShare/UI'
+
+#pod 'SnapKit'
+#pod 'SensorsAnalyticsSDK'
+# new
+
+
+
+end
