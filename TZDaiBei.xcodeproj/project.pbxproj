@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26B4F1792384F47E006413AC /* TZNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B4F1782384F47E006413AC /* TZNavigationViewController.m */; };
+		26B4F17C2384F4E3006413AC /* TZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B4F17B2384F4E3006413AC /* TZTabBarController.m */; };
+		26B4F18223851135006413AC /* TZLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B4F18123851135006413AC /* TZLoginVC.m */; };
+		26B4F18523851171006413AC /* TZHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B4F18423851171006413AC /* TZHomePageViewController.m */; };
+		26B4F1882385118A006413AC /* TZProductPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B4F1872385118A006413AC /* TZProductPageViewController.m */; };
+		26B4F18B238511A1006413AC /* TZMinePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B4F18A238511A1006413AC /* TZMinePageViewController.m */; };
+		26B4F19323851630006413AC /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B4F19223851630006413AC /* AppDelegate+AppService.m */; };
+		26B4F19723852968006413AC /* TZUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B4F19623852968006413AC /* TZUserManager.m */; };
 		26CB817D2383EE8A00FB3FE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB817C2383EE8A00FB3FE0 /* AppDelegate.m */; };
 		26CB81862383EE8A00FB3FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CB81842383EE8A00FB3FE0 /* Main.storyboard */; };
 		26CB81892383EE8A00FB3FE0 /* TZDaiBei.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26CB81872383EE8A00FB3FE0 /* TZDaiBei.xcdatamodeld */; };
@@ -37,6 +45,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26B4F1772384F47E006413AC /* TZNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZNavigationViewController.h; sourceTree = "<group>"; };
+		26B4F1782384F47E006413AC /* TZNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZNavigationViewController.m; sourceTree = "<group>"; };
+		26B4F17A2384F4E3006413AC /* TZTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZTabBarController.h; sourceTree = "<group>"; };
+		26B4F17B2384F4E3006413AC /* TZTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZTabBarController.m; sourceTree = "<group>"; };
+		26B4F18023851135006413AC /* TZLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLoginVC.h; sourceTree = "<group>"; };
+		26B4F18123851135006413AC /* TZLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLoginVC.m; sourceTree = "<group>"; };
+		26B4F18323851171006413AC /* TZHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZHomePageViewController.h; sourceTree = "<group>"; };
+		26B4F18423851171006413AC /* TZHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZHomePageViewController.m; sourceTree = "<group>"; };
+		26B4F1862385118A006413AC /* TZProductPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZProductPageViewController.h; sourceTree = "<group>"; };
+		26B4F1872385118A006413AC /* TZProductPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZProductPageViewController.m; sourceTree = "<group>"; };
+		26B4F189238511A1006413AC /* TZMinePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZMinePageViewController.h; sourceTree = "<group>"; };
+		26B4F18A238511A1006413AC /* TZMinePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZMinePageViewController.m; sourceTree = "<group>"; };
+		26B4F19123851630006413AC /* AppDelegate+AppService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AppService.h"; sourceTree = "<group>"; };
+		26B4F19223851630006413AC /* AppDelegate+AppService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppService.m"; sourceTree = "<group>"; };
+		26B4F19523852968006413AC /* TZUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZUserManager.h; sourceTree = "<group>"; };
+		26B4F19623852968006413AC /* TZUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZUserManager.m; sourceTree = "<group>"; };
+		26B4F199238529C1006413AC /* TZDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZDefine.h; sourceTree = "<group>"; };
+		26B4F19A23852A2F006413AC /* TZHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZHeader.h; sourceTree = "<group>"; };
+		26B4F19C238537FB006413AC /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
 		26CB81782383EE8A00FB3FE0 /* TZDaiBei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZDaiBei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CB817B2383EE8A00FB3FE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26CB817C2383EE8A00FB3FE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,6 +133,8 @@
 		26B4F1722384ECA9006413AC /* LoginRegister(登录注册页) */ = {
 			isa = PBXGroup;
 			children = (
+				26B4F18023851135006413AC /* TZLoginVC.h */,
+				26B4F18123851135006413AC /* TZLoginVC.m */,
 			);
 			path = "LoginRegister(登录注册页)";
 			sourceTree = "<group>";
@@ -128,6 +157,9 @@
 		26B4F1752384EDBA006413AC /* DefinePCH */ = {
 			isa = PBXGroup;
 			children = (
+				26B4F199238529C1006413AC /* TZDefine.h */,
+				26B4F19A23852A2F006413AC /* TZHeader.h */,
+				26B4F19C238537FB006413AC /* UtilsMacros.h */,
 			);
 			path = DefinePCH;
 			sourceTree = "<group>";
@@ -137,6 +169,15 @@
 			children = (
 			);
 			path = NetWork;
+			sourceTree = "<group>";
+		};
+		26B4F1942385291B006413AC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				26B4F19523852968006413AC /* TZUserManager.h */,
+				26B4F19623852968006413AC /* TZUserManager.m */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		26CB816F2383EE8A00FB3FE0 = {
@@ -164,6 +205,7 @@
 		26CB817A2383EE8A00FB3FE0 /* TZDaiBei */ = {
 			isa = PBXGroup;
 			children = (
+				26B4F1942385291B006413AC /* Manager */,
 				26CB81C42384E45D00FB3FE0 /* AppDelegate */,
 				26CB81B92383F11F00FB3FE0 /* Base */,
 				26EF684F2384E9BB00AA67A3 /* Modules */,
@@ -220,6 +262,10 @@
 			children = (
 				26EF684C2384E7C600AA67A3 /* RootViewController.h */,
 				26EF684D2384E7C600AA67A3 /* RootViewController.m */,
+				26B4F1772384F47E006413AC /* TZNavigationViewController.h */,
+				26B4F1782384F47E006413AC /* TZNavigationViewController.m */,
+				26B4F17A2384F4E3006413AC /* TZTabBarController.h */,
+				26B4F17B2384F4E3006413AC /* TZTabBarController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -229,6 +275,8 @@
 			children = (
 				26CB817B2383EE8A00FB3FE0 /* AppDelegate.h */,
 				26CB817C2383EE8A00FB3FE0 /* AppDelegate.m */,
+				26B4F19123851630006413AC /* AppDelegate+AppService.h */,
+				26B4F19223851630006413AC /* AppDelegate+AppService.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -237,9 +285,9 @@
 			isa = PBXGroup;
 			children = (
 				26B4F1722384ECA9006413AC /* LoginRegister(登录注册页) */,
+				26EF68502384E9D300AA67A3 /* Home(首页) */,
 				26EF68522384EA2200AA67A3 /* Product(产品页) */,
 				26EF68512384E9FB00AA67A3 /* Mine(我的页) */,
-				26EF68502384E9D300AA67A3 /* Home(首页) */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -247,6 +295,8 @@
 		26EF68502384E9D300AA67A3 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				26B4F18323851171006413AC /* TZHomePageViewController.h */,
+				26B4F18423851171006413AC /* TZHomePageViewController.m */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
@@ -254,6 +304,8 @@
 		26EF68512384E9FB00AA67A3 /* Mine(我的页) */ = {
 			isa = PBXGroup;
 			children = (
+				26B4F189238511A1006413AC /* TZMinePageViewController.h */,
+				26B4F18A238511A1006413AC /* TZMinePageViewController.m */,
 			);
 			path = "Mine(我的页)";
 			sourceTree = "<group>";
@@ -261,6 +313,8 @@
 		26EF68522384EA2200AA67A3 /* Product(产品页) */ = {
 			isa = PBXGroup;
 			children = (
+				26B4F1862385118A006413AC /* TZProductPageViewController.h */,
+				26B4F1872385118A006413AC /* TZProductPageViewController.m */,
 			);
 			path = "Product(产品页)";
 			sourceTree = "<group>";
@@ -439,8 +493,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B4F19323851630006413AC /* AppDelegate+AppService.m in Sources */,
+				26B4F1882385118A006413AC /* TZProductPageViewController.m in Sources */,
+				26B4F19723852968006413AC /* TZUserManager.m in Sources */,
+				26B4F18523851171006413AC /* TZHomePageViewController.m in Sources */,
+				26B4F18B238511A1006413AC /* TZMinePageViewController.m in Sources */,
+				26B4F1792384F47E006413AC /* TZNavigationViewController.m in Sources */,
 				26CB81912383EE8C00FB3FE0 /* main.m in Sources */,
+				26B4F18223851135006413AC /* TZLoginVC.m in Sources */,
 				26CB81892383EE8A00FB3FE0 /* TZDaiBei.xcdatamodeld in Sources */,
+				26B4F17C2384F4E3006413AC /* TZTabBarController.m in Sources */,
 				26EF684E2384E7C600AA67A3 /* RootViewController.m in Sources */,
 				26CB817D2383EE8A00FB3FE0 /* AppDelegate.m in Sources */,
 			);

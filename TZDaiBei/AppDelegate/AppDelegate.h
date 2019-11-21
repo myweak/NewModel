@@ -8,12 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "AppDelegate+AppService.h"
+#import "TZTabBarController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (readonly, strong) NSPersistentCloudKitContainer *persistentContainer;
+@property (strong, nonatomic) UIWindow *window;
 
-- (void)saveContext;
+@property (strong, nonatomic) TZTabBarController *mainTabBar;
 
 
 @end

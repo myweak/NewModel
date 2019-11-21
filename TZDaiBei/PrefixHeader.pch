@@ -10,7 +10,9 @@
 #define PrefixHeader_pch
 
 
-
+#import "TZHeader.h"
+#import "TZDefine.h"
+#import "UtilsMacros.h"
 
 
 #endif /* PrefixHeader_pch */
