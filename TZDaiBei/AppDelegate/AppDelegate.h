@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 #import "AppDelegate+AppService.h"
-#import "TZTabBarController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

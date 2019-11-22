@@ -10,6 +10,8 @@
 #define UtilsMacros_h
 
 
+
+
 //单例化一个类
 #define SINGLETON_FOR_HEADER(className) \
 \
@@ -25,7 +27,6 @@ shared##className = [[self alloc] init]; \
 }); \
 return shared##className; \
 }\
-
 
 
 

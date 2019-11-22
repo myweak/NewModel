@@ -11,14 +11,10 @@
 
 #import "TZUserManager.h"
 #import "TZTabBarController.h"
+
 #import "TZNavigationViewController.h"
 #import "AppDelegate+AppService.h"
 #import "AppDelegate.h"
-#import "TZUserManager.h"
-//单例化一个类
-#define SINGLETON_FOR_HEADER(className) \
-\
-+ (className *)shared##className;\
 
 
 #endif /* TZHeader_h */

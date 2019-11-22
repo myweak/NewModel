@@ -14,8 +14,12 @@
 
 #pragma mark ————— 初始化window —————
 -(void)initWindow{
-
-
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+//    [[UIButton appearance] setExclusiveTouch:YES];
+//    [[UIButton appearance] setShowsTouchWhenHighlighted:YES];
+//    [UIActivityIndicatorView appearanceWhenContainedIn:[MBProgressHUD class], nil].color = KWhiteColor;
     if (@available(iOS 11.0, *)){
         [[UIScrollView appearance] setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
     }
@@ -29,9 +33,11 @@
         
         //如果有本地数据，先展示TabBar 随后异步自动登录
         self.mainTabBar = [TZTabBarController new];
-        [self.mainTabBar setUpTabBarItemsAttributesForController:self.mainTabBar];
+//        [self.mainTabBar setUpTabBarItemsAttributesForController:self.mainTabBar];
+//      self.mainTabBar.viewControllers =  [self.mainTabBar viewControllersForTabBar];
 
-
+        
+        self.window.rootViewController = self.mainTabBar;
         
         //自动登录
 //        [userManager autoLoginToServer:^(BOOL success, NSString *des) {

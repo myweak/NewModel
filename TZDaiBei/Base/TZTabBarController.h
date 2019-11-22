@@ -17,8 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TZTabBarController : CYLTabBarController
 
-- (NSArray *)viewControllersForTabBar;
-- (void)setUpTabBarItemsAttributesForController:(CYLTabBarController *)tabBarController;
+//- (NSArray *)viewControllersForTabBar;
+//- (void)setUpTabBarItemsAttributesForController;
 @end
 
 NS_ASSUME_NONNULL_END
