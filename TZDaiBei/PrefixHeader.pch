@@ -10,13 +10,11 @@
 #define PrefixHeader_pch
 
 #ifdef __OBJC__
-#import <Foundation/Foundation.h>
+
 #import "TZHeader.h"
-#import "TZDefine.h"
-#import "UtilsMacros.h"
+
+
+
 #endif
-
-
-
 #endif /* PrefixHeader_pch */
 

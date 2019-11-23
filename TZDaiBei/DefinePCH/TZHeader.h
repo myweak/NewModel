@@ -9,6 +9,9 @@
 #ifndef TZHeader_h
 #define TZHeader_h
 
+#import "TZDefine.h"
+#import "UtilsMacros.h"
+
 #import "TZUserManager.h"
 #import "TZTabBarController.h"
 

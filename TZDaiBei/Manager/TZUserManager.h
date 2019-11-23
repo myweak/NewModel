@@ -1,18 +1,15 @@
 //
-//  TZUserManager.h
+//  UserManager.h
 //  TZDaiBei
 //
-//  Created by TianZe on 2019/11/20.
+//  Created by TianZe on 2019/11/23.
 //  Copyright © 2019 天泽集团. All rights reserved.
 //
-#import "UtilsMacros.h"
+
 #import <Foundation/Foundation.h>
 
-@interface TZUserManager : NSObject
 
-//单例
-//+ (id)sharedTZUserManager;
-//SINGLETON_FOR_HEADERw(TZUserManager)
+@interface TZUserManager : NSObject
 
 SINGLETON_FOR_HEADER(TZUserManager)
 
@@ -25,6 +22,5 @@ SINGLETON_FOR_HEADER(TZUserManager)
  @return 是否成功
  */
 -(BOOL)loadUserInfo;
-
 @end
 

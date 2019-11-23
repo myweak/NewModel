@@ -29,7 +29,7 @@
 #pragma mark ————— 初始化用户系统 —————
 -(void)initUserManager{
 //    DLog(@"设备IMEI ：%@",[OpenUDID value]);
-    if([[TZUserManager sharedTZUserManager] loadUserInfo]){
+    if([userManager loadUserInfo]){
         
         //如果有本地数据，先展示TabBar 随后异步自动登录
         self.mainTabBar = [TZTabBarController new];
