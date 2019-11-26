@@ -1,5 +1,5 @@
 platform :ios, '9.0'
-
+#use_frameworks！
 target 'TZDaiBei' do
 
 # system -----------------
@@ -16,6 +16,9 @@ pod 'YYWebImage'
 pod 'YYModel'
 pod 'ReactiveObjC'
 pod 'YYText'
+pod 'Masonry'
+pod 'SVProgressHUD'
+
 
 # Tool -----------------
 pod 'LLDebugTool' , '1.3.6' #,:configurations => ['Debug']

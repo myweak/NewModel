@@ -12,6 +12,9 @@
 #ifdef __OBJC__
 
 #import "TZHeader.h"
+#import "APPFontSize.h"
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 
 

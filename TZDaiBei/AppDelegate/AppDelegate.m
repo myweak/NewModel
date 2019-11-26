@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LLDebugTool.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+    
+    #ifdef DEBUG
+    [[LLDebugTool sharedTool] startWorkingWithConfigBlock:^(LLConfig * _Nonnull config) {
+    }];
+    #else
+    #endif
     
     //初始化window
        [self initWindow];

@@ -7,7 +7,7 @@
 //
 
 #import "TZTabBarController.h"
-
+#import "UIView+Frame.h"
 @interface TZTabBarController ()
 
 @end
